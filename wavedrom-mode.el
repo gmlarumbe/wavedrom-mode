@@ -210,6 +210,7 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
     (define-key map (kbd "C-c C-p") 'wavedrom-preview-browser)
     map))
 
+;;;###autoload
 (define-derived-mode wavedrom-mode js-json-mode "WaveDrom"
   "Major mode for editing WaveDrom files and generate output."
   (setq-local font-lock-defaults wavedrom-font-lock-defaults)
