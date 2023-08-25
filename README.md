@@ -7,6 +7,10 @@
 This package provides a major mode for editing and rendering [WaveJSON](https://github.com/wavedrom/schema/blob/master/WaveJSON.md)
 files to create timing diagrams using [wavedrom](https://wavedrom.com/).
 
+## Demo
+
+<img src="https://github.com/gmlarumbe/wavedrom-mode/assets/51021955/f2750631-eb69-4fa2-a11b-c127092776c6" height=500>
+
 ## Requirements ##
 
 - `wavedrom-cli`: https://github.com/wavedrom/cli
