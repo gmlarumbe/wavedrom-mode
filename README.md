@@ -87,4 +87,6 @@ the following Elisp code:
   * Package to edit VHDL sources
 * [fpga](https://github.com/gmlarumbe/fpga): FPGA & ASIC Utilities for Emacs
   * Utilities for tools of major vendors of FPGA & ASIC
+* [vunit-mode](https://github.com/embed-me/vunit-mode.git): VUnit Mode for Emacs
+  * Integration of [VUnit](https://github.com/VUnit/vunit) workflow.
 
