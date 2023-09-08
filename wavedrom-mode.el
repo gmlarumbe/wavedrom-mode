@@ -51,6 +51,9 @@
 
 ;;; Code:
 
+(require 'js)
+
+
 ;;;###autoload
 (add-to-list 'auto-mode-alist (cons "\\.wjson\\'" 'wavedrom-mode))
 
