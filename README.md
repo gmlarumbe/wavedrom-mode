@@ -1,6 +1,6 @@
-<!-- [![MELPA](https://melpa.org/packages/wavedrom-mode-badge.svg)](https://melpa.org/#/wavedrom-mode) -->
+[![MELPA](https://melpa.org/packages/wavedrom-mode-badge.svg)](https://melpa.org/#/wavedrom-mode)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- [![MELPA Stable](https://stable.melpa.org/packages/wavedrom-mode-badge.svg)](https://stable.melpa.org/#/wavedrom-mode) -->
-<!-- [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) -->
 
 # wavedrom.el - Wavedrom Integration for Emacs #
 
@@ -20,24 +20,19 @@ files to create timing diagrams using [wavedrom](https://wavedrom.com/).
 
 ## Installation ##
 
-<!-- ### MELPA ### -->
+### MELPA ###
 
-<!-- `wavedrom` is available on MELPA. -->
+`wavedrom` is available on MELPA.
 
 ### straight.el ###
 
 To install it via [straight](https://github.com/radian-software/straight.el) with `use-package`:
 
-<!-- ```emacs-lisp -->
-<!-- (straight-use-package 'use-package) -->
-<!-- (use-package wavedrom) -->
-<!-- ``` -->
-
 ```emacs-lisp
 (straight-use-package 'use-package)
-(use-package wavedrom-mode
-  :straight (:host github :repo "gmlarumbe/wavedrom-mode"))
+(use-package wavedrom)
 ```
+
 
 ## Basic config ##
 
