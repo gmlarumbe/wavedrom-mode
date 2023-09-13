@@ -54,10 +54,6 @@
 (require 'js)
 
 
-;;;###autoload
-(add-to-list 'auto-mode-alist (cons "\\.wjson\\'" 'wavedrom-mode))
-
-
 ;;;; Custom
 (defgroup wavedrom nil
   "WaveDrom customization."
@@ -172,7 +168,6 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
     (unless (file-directory-p wavedrom-output-directory)
       (error "Selected `wavedrom-output-directory': %s is not a directory" wavedrom-output-directory))))
 
-;;;###autoload
 (defun wavedrom-compile ()
   "Generate timing diagram using WaveDrom."
   (interactive)
@@ -200,7 +195,6 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
     (with-current-buffer (get-file-buffer (wavedrom-output-file))
       (auto-revert-mode))))
 
-;;;###autoload
 (defun wavedrom-preview-browser ()
   "Open rendered image in default browser."
   (interactive)
@@ -219,6 +213,10 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
   (setq-local font-lock-defaults wavedrom-font-lock-defaults)
   (add-hook 'after-save-hook #'wavedrom-compile nil :local)
   (add-hook 'completion-at-point-functions #'wavedrom-completion-at-point nil 'local))
+
+;;;###autoload
+(add-to-list 'auto-mode-alist (cons "\\.wjson\\'" 'wavedrom-mode))
+
 
 
 (provide 'wavedrom-mode)
