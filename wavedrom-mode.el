@@ -4,7 +4,7 @@
 
 ;; Author: Gonzalo Larumbe <gonzalomlarumbe@gmail.com>
 ;; URL: https://github.com/gmlarumbe/wavedrom-mode
-;; Version: 0.0.0
+;; Version: 0.1.0
 ;; Keywords: FPGA, ASIC, Tools
 ;; Package-Requires: ((emacs "29.1"))
 
