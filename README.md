@@ -1,7 +1,7 @@
 [![MELPA](https://melpa.org/packages/wavedrom-mode-badge.svg)](https://melpa.org/#/wavedrom-mode)
+[![MELPA Stable](https://stable.melpa.org/packages/wavedrom-mode-badge.svg)](https://stable.melpa.org/#/wavedrom-mode)
 [![Build Status](https://github.com/gmlarumbe/wavedrom-mode/workflows/elisp-check/badge.svg)](https://github.com/gmlarumbe/wavedrom-mode/actions/workflows/elisp-check.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-<!-- [![MELPA Stable](https://stable.melpa.org/packages/wavedrom-mode-badge.svg)](https://stable.melpa.org/#/wavedrom-mode) -->
 
 # wavedrom.el - Wavedrom Integration for Emacs #
 
@@ -77,12 +77,12 @@ the following Elisp code:
 
 ## Other packages
 
-* [verilog-ext](https://github.com/gmlarumbe/verilog-ext): SystemVerilog Extensions for Emacs
-  * Package to edit SystemVerilog sources
-* [vhdl-ext](https://github.com/gmlarumbe/vhdl-ext): VHDL Extensions for Emacs
-  * Package to edit VHDL sources
-* [fpga](https://github.com/gmlarumbe/fpga): FPGA & ASIC Utilities for Emacs
-  * Utilities for tools of major vendors of FPGA & ASIC
-* [vunit-mode](https://github.com/embed-me/vunit-mode.git): VUnit Mode for Emacs
-  * Integration of [VUnit](https://github.com/VUnit/vunit) workflow.
+* [verilog-ts-mode](https://github.com/gmlarumbe/verilog-ts-mode): SystemVerilog Tree-sitter mode
+* [vhdl-ts-mode](https://github.com/gmlarumbe/vhdl-ts-mode): VHDL Tree-sitter mode
+* [verilog-ext](https://github.com/gmlarumbe/verilog-ext): SystemVerilog Extensions
+* [vhdl-ext](https://github.com/gmlarumbe/vhdl-ext): VHDL Extensions
+* [fpga](https://github.com/gmlarumbe/fpga): FPGA & ASIC Utilities for tools of major vendors and open source
+* [vunit-mode](https://github.com/embed-me/vunit-mode.git): Integration of [VUnit](https://github.com/VUnit/vunit) workflow
+
+
 
