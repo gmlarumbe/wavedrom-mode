@@ -10,7 +10,7 @@ files to create timing diagrams using [wavedrom](https://wavedrom.com/).
 
 ## Demo
 
-<img src="https://github.com/gmlarumbe/wavedrom-mode/assets/51021955/f2750631-eb69-4fa2-a11b-c127092776c6" height=500>
+<img src="https://github.com/gmlarumbe/wavedrom-mode/assets/51021955/f2750631-eb69-4fa2-a11b-c127092776c6" width=100%>
 
 ## Requirements ##
 
