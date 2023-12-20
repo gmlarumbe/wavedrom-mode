@@ -1,6 +1,6 @@
 [![MELPA](https://melpa.org/packages/wavedrom-mode-badge.svg)](https://melpa.org/#/wavedrom-mode)
 [![MELPA Stable](https://stable.melpa.org/packages/wavedrom-mode-badge.svg)](https://stable.melpa.org/#/wavedrom-mode)
-[![Build Status](https://github.com/gmlarumbe/wavedrom-mode/workflows/elisp-check/badge.svg)](https://github.com/gmlarumbe/wavedrom-mode/actions/workflows/elisp-check.yml)
+[![Build Status](https://github.com/gmlarumbe/wavedrom-mode/actions/workflows/elisp_check.yml/badge.svg)](https://github.com/gmlarumbe/wavedrom-mode/actions/workflows/elisp_check.yml)
 
 # wavedrom.el - Wavedrom Integration for Emacs #
 
