@@ -133,11 +133,12 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
 
 (defun wavedrom-command-args ()
   "Return wavedrom-cli command arguments depending on selected output format."
-  (pcase wavedrom-output-format
-    ("svg" `("-i" ,buffer-file-name "-s" ,(wavedrom-output-file)))
-    ("png" `("-i" ,buffer-file-name "-p" ,(wavedrom-output-file)))
-    ("pdf" `("-i" ,buffer-file-name "|" ,wavedrom-inkscape-executable "-p" ,(concat "--export-filename=" (wavedrom-output-file))))
-    (_ nil)))
+  (let ((filename (concat "\"" buffer-file-name "\"")))
+	(pcase wavedrom-output-format
+      ("svg" `("-i" ,filename "-s" ,(wavedrom-output-file)))
+      ("png" `("-i" ,filename "-p" ,(wavedrom-output-file)))
+      ("pdf" `("-i" ,filename "|" ,wavedrom-inkscape-executable "-p" ,(concat "--export-filename=" (wavedrom-output-file))))
+      (_ nil))))
 
 (defun wavedrom-completion-at-point ()
   "Simple `completion-at-point' function."
