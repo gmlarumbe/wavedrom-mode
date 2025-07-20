@@ -134,7 +134,7 @@ It will depend on `wavedrom-output-format' and `wavedrom-output-directory'."
 (defun wavedrom-command-args ()
   "Return wavedrom-cli command arguments depending on selected output format."
   (let ((filename (concat "\"" buffer-file-name "\"")))
-	(pcase wavedrom-output-format
+    (pcase wavedrom-output-format
       ("svg" `("-i" ,filename "-s" ,(wavedrom-output-file)))
       ("png" `("-i" ,filename "-p" ,(wavedrom-output-file)))
       ("pdf" `("-i" ,filename "|" ,wavedrom-inkscape-executable "-p" ,(concat "--export-filename=" (wavedrom-output-file))))
